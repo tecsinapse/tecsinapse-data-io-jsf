@@ -1,17 +1,17 @@
-Tecsinapse Data Importer and Exporter
+Tecsinapse Data Input and Output
 ==========
-[![License (LGPL version 3)](https://img.shields.io/badge/license-GNU%20LGPL%20version%203.0-blue.svg)](https://github.com/tecsinapse/ts-data-ie-jsf/blob/master/LICENCE)
-[![Build Status](https://travis-ci.org/tecsinapse/ts-data-ie-jsf.svg?branch=master)](https://travis-ci.org/tecsinapse/ts-data-ie-jsf)
-[![Coverage Status](https://img.shields.io/coveralls/tecsinapse/ts-data-ie-jsf.svg?branch=master)](https://coveralls.io/github/tecsinapse/ts-data-ie-jsf?branch=master)
+[![License (LGPL version 3)](https://img.shields.io/badge/license-GNU%20LGPL%20version%203.0-blue.svg)](https://github.com/tecsinapse/tecsinapse-data-io-jsf/blob/master/LICENCE)
+[![Build Status](https://travis-ci.org/tecsinapse/tecsinapse-data-io-jsf.svg?branch=master)](https://travis-ci.org/tecsinapse/tecsinapse-data-io-jsf)
+[![Coverage Status](https://img.shields.io/coveralls/tecsinapse/tecsinapse-data-io-jsf.svg?branch=master)](https://coveralls.io/github/tecsinapse/tecsinapse-data-io-jsf?branch=master)
 [![Dependency Status](https://www.versioneye.com/user/projects/57c325e069d94900403f6421/badge.svg)](https://www.versioneye.com/user/projects/57c325e069d94900403f6421)
-[![Maven Central](https://maven-badges.herokuapp.com/maven-central/br.com.tecsinapse/ts-data-ie-jsf/badge.svg)](https://maven-badges.herokuapp.com/maven-central/br.com.tecsinapse/ts-data-ie-jsf/)
-[![Javadoc](http://www.javadoc.io/badge/br.com.tecsinapse/ts-data-ie-jsf.svg)](http://www.javadoc.io/doc/br.com.tecsinapse/ts-data-ie-jsf)
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/br.com.tecsinapse/tecsinapse-data-io-jsf/badge.svg)](https://maven-badges.herokuapp.com/maven-central/br.com.tecsinapse/tecsinapse-data-io-jsf/)
+[![Javadoc](http://www.javadoc.io/badge/br.com.tecsinapse/tecsinapse-data-io-jsf.svg)](http://www.javadoc.io/doc/br.com.tecsinapse/tecsinapse-data-io-jsf)
 
-Wants to contribute to ts-data-ie-jsf?
+Wants to contribute to tecsinapse-data-io-jsf?
 ---
 Before working on the code, if you plan to contribute changes, please read the following [CONTRIBUTING](CONTRIBUTING.md) document.
 
-Using ts-data-ie-jsf
+Using tecsinapse-data-io-jsf
 ---
 
 Maven:
@@ -19,7 +19,7 @@ Maven:
 ``` xml
 <dependency>
   <groupId>br.com.tecsinapse</groupId>
-  <artifactId>ts-data-ie-jsf</artifactId>
+  <artifactId>tecsinapse-data-io-jsf</artifactId>
   <version>1.0.0</version>
 </dependency>
 ```
@@ -27,7 +27,7 @@ Maven:
 Gradle:
 
 ```groovy
-compile "br.com.tecsinapse:ts-data-ie-jsf:1.0.0"
+compile "br.com.tecsinapse:tecsinapse-data-io-jsf:1.0.0"
 ```
 
 If you want to use snapshots first config OSS Sonatype Snapshots repository:
@@ -62,7 +62,7 @@ And then the dependency:
 ``` xml
 <dependency>
   <groupId>br.com.tecsinapse</groupId>
-  <artifactId>ts-data-ie-jsf</artifactId>
+  <artifactId>tecsinapse-data-io-jsf</artifactId>
   <version>1.0.1-SNAPSHOT</version>
 </dependency>
 ```
@@ -70,22 +70,22 @@ And then the dependency:
 Gradle:
 
 ```groovy
-compile 'br.com.tecsinapse:ts-data-ie-jsf:1.0.1-SNAPSHOT'
+compile 'br.com.tecsinapse:tecsinapse-data-io-jsf:1.0.1-SNAPSHOT'
 ```
 
 Documentation and samples
 ---
 
-For documentation and samples check out our [wiki](https://github.com/tecsinapse/ts-data-ie-jsf/wiki)
+For documentation and samples check out our [wiki](https://github.com/tecsinapse/tecsinapse-data-io-jsf/wiki)
 
 Need help or found an issue?
 ---
 
-When reporting an issue through the [issue tracker](https://github.com/tecsinapse/ts-data-ie-jsf/issues?state=open)
+When reporting an issue through the [issue tracker](https://github.com/tecsinapse/tecsinapse-data-io-jsf/issues?state=open)
 on GitHub, please use the following guidelines:
 
 * Check existing issues to see if it has been addressed already
-* The version of ts-data-ie-jsf you are using
+* The version of tecsinapse-data-io-jsf you are using
 * A short description of the issue you are experiencing and the expected outcome
 * Description of how someone else can reproduce the problem
 * Paste error output or logs in your issue or in a Gist. If pasting them in the GitHub issue, wrap 

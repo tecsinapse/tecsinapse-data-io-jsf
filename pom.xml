@@ -1,5 +1,5 @@
 <!--
-  Tecsinapse Data Importer and Exporter
+  Tecsinapse Data Input and Output
 
   License: GNU Lesser General Public License (LGPL), version 3 or later
   See the LICENSE file in the root directory or <http://www.gnu.org/licenses/lgpl-3.0.html>.
@@ -11,20 +11,20 @@
         <artifactId>tecsinapse-oss-parent</artifactId>
         <version>1.0.0</version>
     </parent>
-    <artifactId>ts-data-ie-jsf</artifactId>
+    <artifactId>tecsinapse-data-io-jsf</artifactId>
     <version>1.0.0-SNAPSHOT</version>
 
     <name>${project.groupId}:${project.artifactId}</name>
 
-    <description>A simple way to work with CSV, XLSX? and TXT files. This project is part of https://github.com/tecsinapse/ts-data-ie</description>
+    <description>A simple way to work with CSV, XLSX? and TXT files. This project is part of https://github.com/tecsinapse/tecsinapse-data-io</description>
 
-    <url>https://github.com/tecsinapse/ts-data-ie-jsf</url>
+    <url>https://github.com/tecsinapse/tecsinapse-data-io-jsf</url>
 
     <properties>
         <!-- dependencies -->
         <jsf-api.version>2.1.16</jsf-api.version>
         <servlet-api.version>2.5</servlet-api.version>
-        <ts-data-ie.version>1.6.0-SNAPSHOT</ts-data-ie.version>
+        <tecsinapse-data-io.version>1.6.0-SNAPSHOT</tecsinapse-data-io.version>
     </properties>
 
     <build>
@@ -90,23 +90,23 @@
     </developers>
 
     <scm>
-        <url>https://github.com/tecsinapse/ts-data-ie-jsf</url>
-        <connection>scm:git:git@github.com:tecsinapse/ts-data-ie-jsf.git</connection>
-        <developerConnection>scm:git:git@github.com:tecsinapse/ts-data-ie-jsf.git</developerConnection>
+        <url>https://github.com/tecsinapse/tecsinapse-data-io-jsf</url>
+        <connection>scm:git:git@github.com:tecsinapse/tecsinapse-data-io-jsf.git</connection>
+        <developerConnection>scm:git:git@github.com:tecsinapse/tecsinapse-data-io-jsf.git</developerConnection>
         <tag>HEAD</tag>
     </scm>
 
     <issueManagement>
         <system>GitHub</system>
-        <url>https://github.com/tecsinapse/ts-data-ie-jsf/issues</url>
+        <url>https://github.com/tecsinapse/tecsinapse-data-io-jsf/issues</url>
     </issueManagement>
 
     <ciManagement>
         <system>Travis CI</system>
-        <url>https://travis-ci.org/tecsinapse/ts-data-ie-jsf</url>
+        <url>https://travis-ci.org/tecsinapse/tecsinapse-data-io-jsf</url>
     </ciManagement>
 
-    <!-- Remove after first release ts-data-ie -->
+    <!-- Remove after first release tecsinapse-data-io -->
     <repositories>
         <repository>
             <id>oss-snapshots</id>
@@ -121,8 +121,8 @@
     <dependencies>
         <dependency>
             <groupId>br.com.tecsinapse</groupId>
-            <artifactId>ts-data-ie</artifactId>
-            <version>${ts-data-ie.version}</version>
+            <artifactId>tecsinapse-data-io</artifactId>
+            <version>${tecsinapse-data-io.version}</version>
         </dependency>
         <!-- jsf -->
         <dependency>

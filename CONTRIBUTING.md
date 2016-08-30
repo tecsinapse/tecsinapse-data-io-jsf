@@ -1,13 +1,13 @@
 Contributing/Development
 ===
-`ts-data-ie-jsf` is always looking for people to contribute to the project. We welcome your
+`tecsinapse-data-io-jsf` is always looking for people to contribute to the project. We welcome your
 feedback and want to listen and discuss your ideas and issues.
 
-There are many different ways to help contribute to the `ts-data-ie-jsf` project.
+There are many different ways to help contribute to the `tecsinapse-data-io-jsf` project.
 
-* Improving or enhancing our [documentation](https://github.com/tecsinapse/ts-data-ie-jsf/wiki)
-* Fixing open issues listed in the [issue tracker](https://github.com/tecsinapse/ts-data-ie-jsf/issues?state=open)
-* Adding new features to the `ts-data-ie-jsf` codebase
+* Improving or enhancing our [documentation](https://github.com/tecsinapse/tecsinapse-data-io-jsf/wiki)
+* Fixing open issues listed in the [issue tracker](https://github.com/tecsinapse/tecsinapse-data-io-jsf/issues?state=open)
+* Adding new features to the `tecsinapse-data-io-jsf` codebase
 
 Guidelines
 ===
@@ -21,7 +21,7 @@ Code style
 ---
 When submitting code, please make every effort to follow existing conventions and
 style in order to keep the code as readable as possible. We realize that the style
-used in `ts-data-ie-jsf` might be different that what is used in your projects, but in the end
+used in `tecsinapse-data-io-jsf` might be different that what is used in your projects, but in the end
  it makes it easier to merge changes and maintain in the future.
 
 Testing
