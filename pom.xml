@@ -24,7 +24,7 @@
         <!-- dependencies -->
         <jsf-api.version>2.1.16</jsf-api.version>
         <servlet-api.version>2.5</servlet-api.version>
-        <tecsinapse-data-io.version>1.6.0-SNAPSHOT</tecsinapse-data-io.version>
+        <tecsinapse-data-io.version>2.0.0</tecsinapse-data-io.version>
     </properties>
 
     <build>
@@ -105,18 +105,6 @@
         <system>Travis CI</system>
         <url>https://travis-ci.org/tecsinapse/tecsinapse-data-io-jsf</url>
     </ciManagement>
-
-    <!-- Remove after first release tecsinapse-data-io -->
-    <repositories>
-        <repository>
-            <id>oss-snapshots</id>
-            <name>OSS Snapshots</name>
-            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
-            <snapshots>
-                <enabled>true</enabled>
-            </snapshots>
-        </repository>
-    </repositories>
 
     <dependencies>
         <dependency>

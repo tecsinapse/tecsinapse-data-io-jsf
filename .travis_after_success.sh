@@ -24,12 +24,6 @@ if [[ $TRAVIS_PULL_REQUEST == "true" ]]; then
 fi
 
 if [[ $TRAVIS_PULL_REQUEST == "false" && $TRAVIS_BRANCH == "master" ]]; then
-    mvn -B deploy -Dmaven.test.skip=true -Dfindbugs.skip=true -DperformRelease=false --settings $GPG_DIR/settings.xml
-    exit $?
-fi
-
-# generate release only branch release
-if [[ $TRAVIS_PULL_REQUEST == "false" && $TRAVIS_BRANCH == "release" ]]; then
-    mvn -B deploy -Dmaven.test.skip=true -Dfindbugs.skip=true -DperformRelease=false --settings $GPG_DIR/settings.xml
+    mvn -B deploy -Dmaven.test.skip=true -Dfindbugs.skip=true -DperformRelease=true --settings $GPG_DIR/settings.xml
     exit $?
 fi
