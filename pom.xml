@@ -12,7 +12,7 @@
         <version>1.0.0</version>
     </parent>
     <artifactId>tecsinapse-data-io-jsf</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1-SNAPSHOT</version>
 
     <name>${project.groupId}:${project.artifactId}</name>
 
@@ -93,7 +93,7 @@
         <url>https://github.com/tecsinapse/tecsinapse-data-io-jsf</url>
         <connection>scm:git:git@github.com:tecsinapse/tecsinapse-data-io-jsf.git</connection>
         <developerConnection>scm:git:git@github.com:tecsinapse/tecsinapse-data-io-jsf.git</developerConnection>
-        <tag>tecsinapse-data-io-jsf-1.0.0</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <issueManagement>
