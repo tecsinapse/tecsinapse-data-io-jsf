@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!--
+  ~ Tecsinapse Data Input and Output
+  ~
+  ~ License: GNU Lesser General Public License (LGPL), version 3 or later
+  ~ See the LICENSE file in the root directory or <http://www.gnu.org/licenses/lgpl-3.0.html>.
+  -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns:c="http://java.sun.com/jsp/jstl/core"
+      xmlns:cc="http://java.sun.com/jsf/composite"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html">
+
+<cc:interface>
+    <cc:attribute name="cell" type="br.com.tecsinapse.exporter.TableCell" required="true"/>
+</cc:interface>
+
+<cc:implementation>
+    <c:if test="#{cc.attrs.rendered}">
+        <th>
+            <h:outputText escape="#{item.cellType.contenType}" value="#{item.contentText}"/>
+            <c:if test="#{cc.attrs.cell.rowspan ne null and cc.attrs.cell.rowspan ne 1}">
+                <f:attribute name="rowspan" value="#{cc.attrs.cell.rowspan}"/>
+            </c:if>
+            <c:if test="#{cc.attrs.cell.colspan ne null and cc.attrs.cell.colspan ne 1}">
+                <f:attribute name="colspan" value="#{cc.attrs.cell.colspan}"/>
+            </c:if>
+            <c:if test="#{cc.attrs.cell.style ne null and cc.attrs.cell.style ne ''}">
+                <f:attribute name="style" value="#{cc.attrs.cell.style}"/>
+            </c:if>
+            <c:if test="#{cc.attrs.cell.styleClass ne null and cc.attrs.cell.styleClass ne ''}">
+                <f:attribute name="class" value="#{cc.attrs.cell.styleClass}"/>
+            </c:if>
+        </th>
+    </c:if>
+</cc:implementation>
+</html>

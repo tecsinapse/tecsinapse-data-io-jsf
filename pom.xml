@@ -4,7 +4,8 @@
   License: GNU Lesser General Public License (LGPL), version 3 or later
   See the LICENSE file in the root directory or <http://www.gnu.org/licenses/lgpl-3.0.html>.
   -->
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>br.com.tecsinapse</groupId>
@@ -16,7 +17,9 @@
 
     <name>${project.groupId}:${project.artifactId}</name>
 
-    <description>A simple way to work with CSV, XLSX? and TXT files. This project is part of https://github.com/tecsinapse/tecsinapse-data-io</description>
+    <description>A simple way to work with CSV, XLSX? and TXT files. This project is part of
+        https://github.com/tecsinapse/tecsinapse-data-io
+    </description>
 
     <url>https://github.com/tecsinapse/tecsinapse-data-io-jsf</url>
 
@@ -24,16 +27,13 @@
         <!-- dependencies -->
         <jsf-api.version>2.1.16</jsf-api.version>
         <servlet-api.version>2.5</servlet-api.version>
-        <tecsinapse-data-io.version>2.0.1-SNAPSHOT</tecsinapse-data-io.version>
+        <tecsinapse-data-io.version>2.0.1</tecsinapse-data-io.version>
     </properties>
 
     <build>
         <plugins>
             <plugin>
                 <artifactId>maven-clean-plugin</artifactId>
-            </plugin>
-            <plugin>
-                <artifactId>maven-compiler-plugin</artifactId>
             </plugin>
             <plugin>
                 <artifactId>maven-deploy-plugin</artifactId>
@@ -127,12 +127,46 @@
         </dependency>
         <!-- test -->
         <dependency>
-            <groupId>org.testng</groupId>
-            <artifactId>testng</artifactId>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.spockframework</groupId>
+            <artifactId>spock-core</artifactId>
+            <version>1.0-groovy-2.4</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.codehaus.groovy</groupId>
+            <artifactId>groovy-all</artifactId>
+            <version>2.4.10</version>
+            <scope>test</scope>
+        </dependency>
+        <!-- jsf test -->
+        <dependency>
+            <groupId>com.sun.faces</groupId>
+            <artifactId>jsf-impl</artifactId>
+            <version>${jsf-api.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>javax.el</groupId>
+            <artifactId>el-api</artifactId>
+            <version>2.1.2-b05</version>
+        </dependency>
+        <dependency>
+            <groupId>net.sourceforge.jwebunit</groupId>
+            <artifactId>jwebunit</artifactId>
+            <version>3.3</version>
+        </dependency>
+        <dependency>
+            <groupId>org.jboss.test-jsf</groupId>
+            <artifactId>jsf-mock</artifactId>
+            <version>1.1.9</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
-
     <prerequisites>
         <maven>3.1.0</maven>
     </prerequisites>
