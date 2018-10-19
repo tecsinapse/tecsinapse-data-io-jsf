@@ -5,12 +5,12 @@
  * See the LICENSE file in the root directory or <http://www.gnu.org/licenses/lgpl-3.0.html>.
  */
 
-package br.com.tecsinapse.exporter.servlet;
+package br.com.tecsinapse.dataio.servlet;
 
-import br.com.tecsinapse.exporter.Table;
-import br.com.tecsinapse.exporter.txt.FileTxt;
-import br.com.tecsinapse.exporter.type.FileType;
-import br.com.tecsinapse.exporter.util.ExporterUtil;
+import br.com.tecsinapse.dataio.Table;
+import br.com.tecsinapse.dataio.txt.FileTxt;
+import br.com.tecsinapse.dataio.type.FileType;
+import br.com.tecsinapse.dataio.util.ExporterUtil;
 
 import javax.faces.context.FacesContext;
 import javax.servlet.http.HttpServletResponse;
@@ -22,8 +22,8 @@ import java.util.List;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipOutputStream;
 
-import static br.com.tecsinapse.exporter.type.FileType.TXT;
-import static br.com.tecsinapse.exporter.type.SeparatorType.SEMICOLON;
+import static br.com.tecsinapse.dataio.type.FileType.TXT;
+import static br.com.tecsinapse.dataio.type.SeparatorType.SEMICOLON;
 
 public final class ExportServletUtil {
 
