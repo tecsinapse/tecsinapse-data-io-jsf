@@ -26,7 +26,7 @@
         <!-- dependencies -->
         <jsf-api.version>2.1.16</jsf-api.version>
         <servlet-api.version>2.5</servlet-api.version>
-        <tecsinapse-data-io.version>3.0.1</tecsinapse-data-io.version>
+        <tecsinapse-data-io.version>3.0.2</tecsinapse-data-io.version>
     </properties>
 
     <build>
