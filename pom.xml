@@ -12,7 +12,7 @@
         <version>1.0.0</version>
     </parent>
     <artifactId>tecsinapse-data-io-jsf</artifactId>
-    <version>2.0.7-SNAPSHOT</version>
+    <version>3.1.0-SNAPSHOT</version>
 
     <name>${project.groupId}:${project.artifactId}</name>
 
@@ -26,7 +26,7 @@
         <!-- dependencies -->
         <jsf-api.version>2.1.16</jsf-api.version>
         <servlet-api.version>2.5</servlet-api.version>
-        <tecsinapse-data-io.version>3.0.2</tecsinapse-data-io.version>
+        <tecsinapse-data-io.version>3.1.1</tecsinapse-data-io.version>
     </properties>
 
     <build>

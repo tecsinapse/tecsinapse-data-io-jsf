@@ -112,6 +112,14 @@ public final class ExportServletUtil {
         facesDownloadResponse(t, name + ".xlsx", FileType.XLSX, false);
     }
 
+    public static void facesDownloadSXlsx(String name, Table t) throws IOException {
+        facesDownloadMoreThanOneSheetSXlsx(name, Arrays.asList(t));
+    }
+
+    public static void facesDownloadMoreThanOneSheetSXlsx(String name, List<Table> t) throws IOException {
+        facesDownloadResponse(t, name + ".xlsx", FileType.SXLSX, false);
+   }
+
     public static void facesDownloadCsv(String name, Table t, String chartsetName) throws IOException {
         String filename = FileType.CSV.toFilenameWithExtensionAndLocalTimeNow(name);
         facesDownloadResponse(Arrays.asList(t), filename, FileType.CSV, chartsetName, false);
