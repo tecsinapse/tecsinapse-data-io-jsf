@@ -8,6 +8,7 @@ notifications:
     - dev@tecsinapse.com.br
     on_success: change
     on_failure: always
+install: true
 after_success:
 - openssl aes-256-cbc -pass pass:$ENCRYPTION_PASSWORD -in $GPG_DIR/pubring.gpg.enc
   -out $GPG_DIR/pubring.gpg -d
