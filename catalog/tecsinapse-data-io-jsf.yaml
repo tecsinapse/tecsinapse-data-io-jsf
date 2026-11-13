@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: tecsinapse-data-io-jsf
+  title: tecsinapse-data-io-jsf
+  description: >
+    Utilitários JSF do tecsinapse-data-io.
+  labels:
+    tecsinapse.com/lifecycle: ativo
+  annotations:
+    github.com/project-slug: tecsinapse/tecsinapse-data-io-jsf
+    backstage.io/source-location: url:https://github.com/tecsinapse/tecsinapse-data-io-jsf/tree/master/
+    backstage.io/techdocs-ref: dir:..
+    tecsinapse.com/pm: user:default/a-confirmar
+    tecsinapse.com/po: user:default/a-confirmar
+    tecsinapse.com/tech-lead: user:default/a-confirmar
+    tecsinapse.com/personal-data: a-confirmar
+spec:
+  type: library
+  lifecycle: production
+  owner: group:default/kaizen
+  system: tecsinapse-data-io
