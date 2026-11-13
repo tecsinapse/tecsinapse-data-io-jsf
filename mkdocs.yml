@@ -1,0 +1,9 @@
+site_name: Tecsinapse Data IO JSF
+docs_dir: docs
+
+plugins:
+  - techdocs-core
+
+nav:
+  - Início: index.md
+  - Uso: uso.md
